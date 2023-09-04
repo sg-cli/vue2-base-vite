@@ -1,0 +1,1 @@
+# vue2+vite+vue-router@3+pinia+eslint+stylelint+prettier+less
