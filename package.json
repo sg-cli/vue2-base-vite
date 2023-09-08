@@ -1,5 +1,5 @@
 {
-  "name": "sssdm",
+  "name": "vite-vue2-pinia-less",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,8 @@
     "vite-plugin-vue2": "^2.0.3"
   },
   "dependencies": {
+    "@antv/g6": "^4.8.21",
+    "@antv/x6": "^2.13.1",
     "pinia": "^2.1.6",
     "vue": "2.7.14",
     "vue-router": "3.6.5",
