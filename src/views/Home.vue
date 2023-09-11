@@ -1,16 +1,25 @@
 <template>
-  <div id="container">Home</div>
+  <div class="home">  Home  </div>
 </template>
 
 <script>
+import { userStore } from "../store/index.js";
 export default {
   name: "Home",
   data() {
     return {};
   },
-  mounted() {},
-  methods: {},
+  mounted() {
+    const { count, arr } = userStore();
+    console.log(count, arr, "----store-0000==");
+  },
+  components: {},
 };
 </script>
 
-<style scoped lang="less"></style>
+<style scoped lang="less">
+.home {
+  background: orange;
+  user-select: none;
+}
+</style>
