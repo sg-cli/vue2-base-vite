@@ -6,12 +6,19 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint \"src/**/*.{js,vue,js}\" --fix",
+    "format": "prettier --config .prettierrc.cjs \"src/**/*.{vue,js,css,less}\" --write"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.17.0",
     "less": "^4.2.0",
     "postcss": "^8.4.29",
+    "prettier": "^3.0.3",
     "vite": "^4.4.5",
     "vite-plugin-vue2": "^2.0.3"
   },
