@@ -5,7 +5,9 @@ module.exports = {
 	},
 	"extends": [
 		"eslint:recommended",
-		"plugin:vue/vue3-essential"
+		"plugin:vue/vue3-essential",
+		// 解决eslint和prettier冲突
+		"prettier"
 	],
 	"overrides": [
 		{

@@ -4,7 +4,7 @@
 
 <script>
 export default {
-	name: 'G6Demo',
+	name: "G6Demo",
 	mounted() {},
 	methods: {},
 };

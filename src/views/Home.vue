@@ -1,17 +1,17 @@
 <template>
-	<div class="home">  Home  </div>
+	<div class="home">Home</div>
 </template>
 
 <script>
-import { userStore } from '../store/index.js';
+import { userStore } from "@/store";
 export default {
-	name: 'Home',
+	name: "view-home",
 	data() {
 		return {};
 	},
 	mounted() {
 		const { count, arr } = userStore();
-		console.log(count, arr, '----store-0000==');
+		console.log(count, arr, "----store-0000==");
 		const aa = 111;
 	},
 	components: {},

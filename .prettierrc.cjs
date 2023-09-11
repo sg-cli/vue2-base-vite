@@ -8,7 +8,7 @@ module.exports = {
 	// 行尾需要分号
 	semi: true,
 	// 使用单引号
-	singleQuote: true,
+	singleQuote: false,
 	// 对象的key仅在必要时使用引号
 	quoteProps: 'as-needed',
 	// jsx不使用单引号，而使用双引号
@@ -32,8 +32,4 @@ module.exports = {
 	htmlWhitespaceSensitivity: 'css',
 	// 换行符使用lf
 	endOfLine: 'lf',
-	// 解决eslint和prettier冲突
-	extends: [
-		'prettier',
-	],
 };

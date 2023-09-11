@@ -1,9 +1,9 @@
-import { defineStore } from 'pinia';
-export const userStore = defineStore('user', {
+import { defineStore } from "pinia";
+export const userStore = defineStore("user", {
 	state: () => {
 		return {
 			count: 1,
-			arr: ['a', 'b', 'c'],
+			arr: ["a", "b", "c"],
 		};
 	},
 	getters: {},
