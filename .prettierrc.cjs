@@ -30,6 +30,6 @@ module.exports = {
 	proseWrap: 'always',
 	// 根据显示样式决定html要不要折行
 	htmlWhitespaceSensitivity: 'css',
-	// 换行符使用lf
-	endOfLine: 'lf',
+	// 换行符使用CRLF
+	endOfLine: 'crlf',
 };
