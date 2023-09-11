@@ -12,7 +12,6 @@ export default {
 	mounted() {
 		const { count, arr } = userStore();
 		console.log(count, arr, "----store-0000==");
-		const aa = 111;
 	},
 	components: {},
 };
