@@ -12,6 +12,7 @@ export default {
 	mounted() {
 		const { count, arr } = userStore();
 		console.log(count, arr, "----store-0000==");
+		console.log(import.meta.env, "---e443");
 	},
 	components: {},
 };
